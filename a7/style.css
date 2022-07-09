@@ -1,0 +1,57 @@
+*{
+font-family: sans-serif;
+}
+
+
+nav {
+text-align: right;
+color: red;
+}
+
+main {
+background: url(img/hero.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 60vh;
+align-items: bottom;
+display: flex;
+align-items:flex-end;
+}
+
+#textDiv {
+width: 50%;
+height: 40 vh;
+font-size: 50px;
+text-align: right;
+text-transform: uppercase;
+color: white;
+}
+
+span {
+font-weight: bold;
+}
+
+footer {
+text-align: center;}
+
+footer h3 {
+color: gold;
+}
+
+footer p {
+font-weight: bold;
+font-size: larger;
+}
+
+#letraPeque {
+
+font-weight: normal;
+font-style: italic;
+
+}
+
+
+
+
+
