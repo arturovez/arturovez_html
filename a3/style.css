@@ -1,0 +1,54 @@
+body {
+    background: url(img/background.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+}
+
+main{
+    margin: 2%;
+    padding: 2%;    
+}
+
+H1 {
+    color: rgb(68, 41, 223);
+    text-shadow: -05px -05px 2px coral;
+        
+}
+
+#navMenu {
+    display: flex;
+}
+
+#navMenu li {
+    background-color: rgba(68, 41, 223,0.5);
+    margin: 5px;
+    color: antiquewhite;
+}
+
+#spacerDiv {
+    height: 50vh;
+}
+#mainDiv {
+    margin: 2%;
+    padding: 2%;
+    width: 60%;
+    background-color: rgba(68, 41, 223,0.5);
+}
+
+#mouseImg {
+    width: 100px;
+}
+
+H2 {
+    color: antiquewhite;
+
+}
+
+p {
+    color: antiquewhite;
+}

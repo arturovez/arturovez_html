@@ -1,0 +1,25 @@
+tr {
+    background-color: aqua;
+}
+
+body {
+    background: url(img/img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+img {
+    float: right;
+    height: 350px;
+}
+
+h1 {
+    background: rgba(107, 10, 10, 0.5);
+    width: auto;
+}
+
+p {
+    font-weight: bold;
+}
