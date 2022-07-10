@@ -45,6 +45,8 @@ header a:visited {
 
 header a:hover {
     color: var(--col2);
+    text-decoration: underline;
+    
 
 }
 
@@ -59,7 +61,17 @@ header a:active {
 
 main {
     margin: 2%;
+}
+
+main section{
+    /* margin: top right bottom left; */
+    margin: 10px 0 10px 0;
+    padding: 00 0px 0 0px;
     background-color: var(--col3);
+    color: var(--col4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer {
