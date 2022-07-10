@@ -4,6 +4,7 @@
     --col3: #4a6d88;
     --col4: #c6cdd7;
     --col5: #d5d9e0;
+    font-family: "Roboto";
 }
 
 * {
@@ -15,13 +16,15 @@ body {
     background-color: var(--col1);
 }
 
-header{
+header {
     margin: 2%;
-    background-color:  var(--col3);
+    background-color: var(--col3);
     text-transform: uppercase;
     color: var(--col4);
     text-decoration: none;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -50,16 +53,16 @@ header a:active {
 
 }
 
-#logoImg{
+#logoImg {
     width: 100px;
 }
 
 main {
     margin: 2%;
-    background-color:  var(--col3);
+    background-color: var(--col3);
 }
 
 footer {
     margin: 2%;
-    background-color:  var(--col3);
+    background-color: var(--col3);
 }
