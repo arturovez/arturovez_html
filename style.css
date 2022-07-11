@@ -60,6 +60,7 @@ header a:active {
 }
 
 .boton{
+    margin: 2%;
     border-radius: 2px;
     border-style: solid;
     border-color: var(--col5);
