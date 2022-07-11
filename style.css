@@ -59,6 +59,14 @@ header a:active {
     width: 100px;
 }
 
+.boton1{
+    border-radius: 2px;
+    border-style: solid;
+    border-color: var(--col5);
+
+
+}
+
 main {
     margin: 2%;
 }
