@@ -80,7 +80,7 @@ main section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 400vh;
+    height: 40vh;
 }
 
 footer {
