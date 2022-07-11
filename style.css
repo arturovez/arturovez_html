@@ -59,7 +59,7 @@ header a:active {
     width: 100px;
 }
 
-.boton1{
+.boton{
     border-radius: 2px;
     border-style: solid;
     border-color: var(--col5);
