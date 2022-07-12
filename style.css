@@ -46,7 +46,7 @@ header a:visited {
 header a:hover {
     color: var(--col2);
     text-decoration: underline;
-    
+
 
 }
 
@@ -59,22 +59,22 @@ header a:active {
     width: 100px;
 }
 
-.boton{
-    background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+.boton {
+    background-color: var(--col2);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 main {
     margin: 2%;
 }
 
-main section{
+main section {
     /* margin: top right bottom left; */
     margin: 10px 0 10px 0;
     padding: 00 0px 0 0px;
