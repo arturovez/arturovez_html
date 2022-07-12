@@ -1,9 +1,9 @@
 :root {
-    --col1: #010c1e;
-    --col2: #001e38;
-    --col3: #4a6d88;
-    --col4: #c6cdd7;
-    --col5: #d5d9e0;
+    --col1: #471337;
+    --col2: #b13254;
+    --col3: #ff5349;
+    --col4: #ff7249;
+    --col5: #ff9248;
     font-family: "Roboto";
 }
 
@@ -35,7 +35,6 @@ header a {
 
 header a:link {
     color: var(--col4);
-
 }
 
 header a:visited {
@@ -61,29 +60,49 @@ header a:active {
 
 .boton {
     background-color: var(--col2);
-    border: none;
-    color: white;
-    padding: 15px 32px;
+    border: solid;
+    border-radius: 15px;
+    color: var(--col5);
+    padding: 15px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.boton:hover{
+    color: var(--col4);
+    text-decoration: underline;
+    background-color: var(--col4);
+    color: var(--col2);
+    font-size: 14px;
+
 }
 
 main {
     margin: 2%;
 }
 
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
 main section {
     /* margin: top right bottom left; */
-    margin: 10px 0 10px 0;
-    padding: 00 0px 0 0px;
+    margin: 10px 0px;
+    padding: 10px 10px;
     background-color: var(--col3);
     color: var(--col4);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+main section div {
+    justify-content: center;
+}
+
 
 footer {
     margin: 2%;
