@@ -69,7 +69,9 @@ header a:active {
     display: inline-block;
     font-size: 12px;
     text-transform: uppercase;
+    font-family: "Roboto";
 }
+
 .boton:hover{
     color: var(--col4);
     text-decoration: underline;
