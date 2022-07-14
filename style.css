@@ -101,7 +101,7 @@ h2{
 }
 
 main section {
-    /* margin: top right bottom left; */
+    /* margin: top right bottom left; 
     margin: 10px 0px;
     padding: 10px 10px;
     background-color: var(--col3);
@@ -120,3 +120,4 @@ footer {
     margin: 2%;
     background-color: var(--col3);
 } */
+
