@@ -1,16 +1,16 @@
 :root {
-    --col1: #471337;
-    --col2: #b13254;
-    --col3: #ff5349;
-    --col4: #ff7249;
-    --col5: #ff9248;
+    --col1: #a8216b;
+    --col2: #f1184c;
+    --col3: #f36943;
+    --col4: #f7dc66;
+    --col5: #2e9599;
     font-family: "Lato";
 }
 
 * {
     margin: 0%;
     padding: 0%;
-    color: var(--col5);
+    color: var(--col4);
 }
 
 #logoImg {
@@ -18,7 +18,7 @@
 }
 
 body {
-    background: var(--col2);
+    background: var(--col5);
 }
 
 header {
@@ -65,6 +65,7 @@ header nav a:hover {
 section {
     margin: 2%;
     background: black linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+    display: flex;
 }
 
 
