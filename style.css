@@ -10,12 +10,63 @@
 * {
     margin: 0%;
     padding: 0%;
+    color: var(--col5);
 }
 
 #logoImg {
-    height: 150px;
-    width: auto;
+    height: 125px;
 }
+
+body {
+    background: var(--col2);
+}
+
+header {
+    background: var(--col1);
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+}
+
+header nav a {
+    /* margin: top right bottom left */
+    margin: 0px 35px;
+    padding: 15px 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    background: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.2));
+}
+
+.boton {
+    background-color: var(--col4);
+    border: solid;
+    border-radius: 15px;
+    color: var(--col1);
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.boton:hover{
+    font-weight: bolder;
+    color: var(--col3);
+    background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+}
+
+section {
+    margin: 2%;
+    background: black linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+}
+
 
 
 
@@ -24,6 +75,9 @@
 /* 
 body {
     background-color: var(--col1);
+    background: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.2));
+
+
 }
 
 header {
