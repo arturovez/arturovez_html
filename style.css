@@ -1,4 +1,46 @@
+:root {
+    --col1: #a8216b;
+    --col2: #f1184c;
+    --col3: #f36943;
+    --col4: #f7dc66;
+    --col5: #2e9599;
+    --colClaro: #ffffff;
+    --colObscuro: #000000;
+    font-family: "Lato";
+}
+
 * {
     margin: 0%;
     padding: 0%;
+}
+
+body {
+    background: var(--col4);
+}
+header {
+    background: var(--col1);
+    text-transform: uppercase;
+
+}
+
+main section {
+    background: var(--col5);
+    color: var(--colClaro);
+    margin: 1% 3%;
+    padding: 2% 0.5%;
+
+}
+
+footer {
+    background-color: #a8216b;
+}
+
+
+
+.logoImg {
+    height: 125px;
+}
+
+.iconoRedes {
+    height: 50px;
 }
