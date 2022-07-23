@@ -25,7 +25,7 @@ header div{
 }
 
 header div nav a {
-    margin:  15px;
+    margin:  45px 25px;
     padding: 10px 10px;
     color: var(--colClaro);
     text-transform: uppercase;
@@ -39,7 +39,16 @@ main section {
     padding: 20px;
 }
 
+main section h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px 25%;
 
+}
+
+footer {
+    background: var(--col1);
+}
 
 #divLogo {
     display: flex;
@@ -56,5 +65,5 @@ main section {
 }
 
 .iconoRedes {
-    height:  50px;
+    height:  40px;
 }
