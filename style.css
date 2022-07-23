@@ -15,17 +15,44 @@
 }
 
 header {
-    background: var(--col1);
+    background-color: var(--col1);
+    color: var(--colClaro)
+}
+
+header div{
+    display: flex;
+    justify-content: center;
+}
+
+header div nav a {
+    margin:  15px;
+    padding: 10px 10px;
+    color: var(--colClaro);
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+main section {
+    background: var(--col3);
+    color: var(--colClaro);
+    padding: 20px;
 }
 
 
-.logoImg {
+
+#divLogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoImg {
     height: 120px;
 }
 
-footer {
-    background: var(--col1);
-
+.boton {
+    color: var(--colObscuro);
 }
 
 .iconoRedes {
