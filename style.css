@@ -1,69 +1,72 @@
 :root {
-    --col1: #a8216b;
-    --col2: #f1184c;
-    --col3: #f36943;
-    --col4: #f7dc66;
-    --col5: #2e9599;
-    --colClaro: #ffffff;
-    --colObscuro: #000000;
+    --col1: #010c1e;
+    --col2: #001e38;
+    --col3: #4a6d88;
+    --col4: #c6cdd7;
+    --col5: #d5d9e0;
     font-family: "Lato";
 }
 
 * {
     margin: 0%;
     padding: 0%;
+    color: var(--col4);
 }
 
 header {
-    background-color: var(--col1);
-    color: var(--colClaro)
-}
-
-header div{
-    display: flex;
-    justify-content: center;
-}
-
-header div nav a {
-    margin:  45px 25px;
-    padding: 10px 10px;
-    color: var(--colClaro);
-    text-transform: uppercase;
-    text-decoration: none;
-
-}
-
-main section {
-    background: var(--col3);
-    color: var(--colClaro);
-    padding: 20px;
-}
-
-main section h2 {
-    text-transform: uppercase;
-    text-align: center;
-    margin: 15px 25%;
-
-}
-
-footer {
     background: var(--col1);
+    margin: 2% 1%;
+    padding: 0% 2%;
+    
 }
-
+   
 #divLogo {
+    padding: 0% 2%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:space-between;
+    align-items: center;    
 }
 
 #logoImg {
-    height: 120px;
-}
+    height: 100px;
+    margin: 15px 0px;
+}  
 
 .boton {
-    color: var(--colObscuro);
+    padding: 2% 2%;
+    border-style: solid;
+    border-radius: 15px;
+    color: var(--col4);
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
+.boton:hover {
+    font-weight: bolder;
+    background-color: var(--col4);
+    color: var(--col2);
+}
+
+#divNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    height:
+}
+
+#divNav nav a{
+    
+    margin: 10px 10px;
+    padding: 35px 25px;
+}
+
+#divNav nav a:hover{
+    color: var(--col1);
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));;
+}
+
+
 .iconoRedes {
-    height:  40px;
+    height: 50px;
 }
