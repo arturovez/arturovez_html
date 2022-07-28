@@ -13,59 +13,82 @@
     color: var(--col4);
 }
 
-header {
-    background: var(--col1);
-    margin: 2% 1%;
-    padding: 0% 2%;
-    
+body {
+    background: var(--col5);
 }
-   
-#divLogo {
-    padding: 0% 2%;
+
+header {
+    background: var(--col2);
+    margin: 0 15px;
+}
+
+header div {
     display: flex;
-    justify-content:space-between;
-    align-items: center;    
+    align-items: center;
+    margin: 0px 20px;
+
+}
+
+#divLogo {
+    justify-content: space-between; 
 }
 
 #logoImg {
     height: 100px;
-    margin: 15px 0px;
-}  
+} 
 
 .boton {
-    padding: 2% 2%;
     border-style: solid;
-    border-radius: 15px;
-    color: var(--col4);
-    text-transform: uppercase;
-    text-decoration: none;
+    padding: 0px 10px;
 }
 
 .boton:hover {
-    font-weight: bolder;
-    background-color: var(--col4);
-    color: var(--col2);
+    background: linear-gradient(var(--col1),var(--col5));
 }
 
-#divNav {
-    display: flex;
+#divNav{
     justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    height:
 }
 
-#divNav nav a{
+#divNav nav {
+    padding: 10px 10px;
+
+}
+
+#divNav nav a {
+    padding: 10px 10px;
+    text-decoration: none;
+
+}
+
+#divNav nav a:hover {
+    color: var(--col2);
+    background: var(--col4);
     
-    margin: 10px 10px;
-    padding: 35px 25px;
 }
 
-#divNav nav a:hover{
-    color: var(--col1);
-    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));;
+main section {
+    background: var(--col3);
+    margin: 15px 15px;
+
 }
 
+main section div {
+    width: 50%;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 170px;
+}
+
+footer {
+    background: var(--col2);
+    margin: 15px 15px;
+
+}
+ 
 
 .iconoRedes {
     height: 50px;
