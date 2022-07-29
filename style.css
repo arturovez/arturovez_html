@@ -38,12 +38,18 @@ header div {
 } 
 
 .boton {
+    padding: 15px 15px;
     border-style: solid;
-    padding: 0px 10px;
+    border-radius: 20px;
+    background: var(--col3);
+    color: var(--col4);
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .boton:hover {
-    background: linear-gradient(var(--col1),var(--col5));
+    background: var(--col4);
+    color: var(--col3);
 }
 
 #divNav{
